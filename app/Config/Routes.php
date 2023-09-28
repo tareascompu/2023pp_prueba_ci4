@@ -59,4 +59,6 @@ $routes->get('localizar_modificar_nivel/(:num)','ControllerNivelesAcademicos::lo
 
 $routes->post('modificar_nivel_acad','ControllerNivelesAcademicos::modificarNivel');
 $routes->post('nuevaruta','ControllerNivelesAcademicos::nuevaruta');
+$routes->post('tres','ControllerNivelesAcademicos::tres');
+
 $routes->post('dos','ControllerNivelesAcademicos::prueba');
