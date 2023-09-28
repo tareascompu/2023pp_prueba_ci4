@@ -62,3 +62,4 @@ $routes->post('nuevaruta','ControllerNivelesAcademicos::nuevaruta');
 $routes->post('tres','ControllerNivelesAcademicos::tres');
 
 $routes->post('dos','ControllerNivelesAcademicos::prueba');
+$routes->post('cuatro','ControllerNivelesAcademicos::cuatro');
