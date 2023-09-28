@@ -1,0 +1,44 @@
+CRITICAL - 2023-07-20 00:29:46 --> Undefined variable $resutado
+in APPPATH\Views\vista_niveles_academicos.php on line 20.
+ 1 APPPATH\Views\vista_niveles_academicos.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resutado', 'C:\\xampp\\htdocs\\2023proyectos\\ci4_ciudadanos_repaso\\app\\Views\\vista_niveles_academicos.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\2023proyectos\\ci4_ciudadanos_repaso\\app\\Views\\vista_niveles_academicos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_niveles_academicos', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('vista_niveles_academicos')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 00:32:23 --> Undefined variable $resutado
+in APPPATH\Views\vista_niveles_academicos.php on line 20.
+ 1 APPPATH\Views\vista_niveles_academicos.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resutado', 'C:\\xampp\\htdocs\\2023proyectos\\ci4_ciudadanos_repaso\\app\\Views\\vista_niveles_academicos.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\2023proyectos\\ci4_ciudadanos_repaso\\app\\Views\\vista_niveles_academicos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_niveles_academicos', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('vista_niveles_academicos')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 01:38:25 --> Undefined variable $resutado
+in APPPATH\Views\vista_niveles_academicos.php on line 21.
+ 1 APPPATH\Views\vista_niveles_academicos.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resutado', 'C:\\xampp\\htdocs\\2023proyectos\\ci4_ciudadanos_repaso\\app\\Views\\vista_niveles_academicos.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\2023proyectos\\ci4_ciudadanos_repaso\\app\\Views\\vista_niveles_academicos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_niveles_academicos', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('vista_niveles_academicos')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 01:40:54 --> Undefined variable $resutado
+in APPPATH\Views\vista_niveles_academicos.php on line 21.
+ 1 APPPATH\Views\vista_niveles_academicos.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resutado', 'C:\\xampp\\htdocs\\2023proyectos\\ci4_ciudadanos_repaso\\app\\Views\\vista_niveles_academicos.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\2023proyectos\\ci4_ciudadanos_repaso\\app\\Views\\vista_niveles_academicos.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_niveles_academicos', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('vista_niveles_academicos')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

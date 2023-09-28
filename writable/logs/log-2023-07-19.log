@@ -1,0 +1,73 @@
+CRITICAL - 2023-07-19 03:34:22 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-07-19 03:34:40 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-07-19 03:35:01 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-07-19 02:19:38 --> Invalid file: "vista_niveles_academico.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vista_niveles_academico.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_niveles_academico', [], true)
+ 3 APPPATH\Controllers\ControllerNivelesAcademicos.php(12): view('vista_niveles_academico', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerNivelesAcademicos->cargarNiveles()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerNivelesAcademicos))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 02:20:15 --> Invalid file: "vista_niveles_academico.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vista_niveles_academico.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_niveles_academico', [], true)
+ 3 APPPATH\Controllers\ControllerNivelesAcademicos.php(12): view('vista_niveles_academico', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerNivelesAcademicos->cargarNiveles()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerNivelesAcademicos))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 02:20:23 --> Invalid file: "vista_niveles_academico.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vista_niveles_academico.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vista_niveles_academico', [], true)
+ 3 APPPATH\Controllers\ControllerNivelesAcademicos.php(12): view('vista_niveles_academico', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerNivelesAcademicos->cargarNiveles()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerNivelesAcademicos))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 02:21:59 --> mysqli_sql_exception: Table 'pp2023_ciudadanos.niveles_academicos' doesn't exist in C:\xampp\htdocs\2023proyectos\ci4_ciudadanos_repaso\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\2023proyectos\ci4_ciudadanos_repaso\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\2023proyectos\ci4_ciudadanos_repaso\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\2023proyectos\ci4_ciudadanos_repaso\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\2023proyectos\ci4_ciudadanos_repaso\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\2023proyectos\ci4_ciudadanos_repaso\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\2023proyectos\ci4_ciudadanos_repaso\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\2023proyectos\ci4_ciudadanos_repaso\app\Controllers\ControllerNivelesAcademicos.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\2023proyectos\ci4_ciudadanos_repaso\system\CodeIgniter.php(932): App\Controllers\ControllerNivelesAcademicos->cargarNiveles()
+#8 C:\xampp\htdocs\2023proyectos\ci4_ciudadanos_repaso\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerNivelesAcademicos))
+#9 C:\xampp\htdocs\2023proyectos\ci4_ciudadanos_repaso\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\2023proyectos\ci4_ciudadanos_repaso\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-19 02:21:59 --> Table 'pp2023_ciudadanos.niveles_academicos' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `niveles_academicos`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `niveles_academicos`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `niveles_academicos`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `niveles_academicos`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ControllerNivelesAcademicos.php(11): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerNivelesAcademicos->cargarNiveles()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerNivelesAcademicos))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
