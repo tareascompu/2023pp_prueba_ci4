@@ -48,4 +48,4 @@ public/assets/
 
 
 # Ignorar archivos de rutas de CodeIgniter 4
-app/Config/*Routes.php
+app/Config/Routes.php

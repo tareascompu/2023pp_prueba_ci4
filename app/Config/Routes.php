@@ -58,3 +58,4 @@ $routes->get('eliminar_nivel_acad/(:num)','ControllerNivelesAcademicos::eliminar
 $routes->get('localizar_modificar_nivel/(:num)','ControllerNivelesAcademicos::localizarNivelAcad/$1');
 
 $routes->post('modificar_nivel_acad','ControllerNivelesAcademicos::modificarNivel');
+$routes->post('nuevaruta','ControllerNivelesAcademicos::nuevaruta');
