@@ -1,0 +1,51 @@
+# Directorios y archivos generados por CodeIgniter
+writable/
+vendor/
+.env
+
+# Archivos de configuración local
+app/Config/Development/
+app/Config/Production/
+app/Config/Staging/
+
+# Dependencias y directorios de desarrollo de Composer
+composer.phar
+composer.lock
+/vendor/
+
+# Dependencias y directorios de Node.js (si se utiliza para el desarrollo)
+node_modules/
+npm-debug.log
+
+# Archivos de configuración específicos de IDE y sistema
+.idea/
+.vscode/
+*.sublime-*
+
+# Archivos de caché y registros generados por la aplicación
+app/Cache/
+app/Logs/
+
+# Archivos de configuración de sistema
+Thumbs.db
+.DS_Store
+
+# Archivos de respaldo
+*~
+*.swp
+
+# Archivos de registros
+error_log
+logs/*.log
+
+# Archivos de respaldo de bases de datos
+*.sql
+
+# Archivos de respaldo de imágenes y medios
+uploads/
+public/uploads/
+public/assets/
+
+
+# Ignorar archivos de rutas de CodeIgniter 4
+app/Config/*Routes.php
